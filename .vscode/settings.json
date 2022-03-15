@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "./ENTIDADES",
+        "./CONEXION",
+        "./PROCESO",
+        "./VISTA"
+    ],
+    "python.formatting.provider": "black"
+}

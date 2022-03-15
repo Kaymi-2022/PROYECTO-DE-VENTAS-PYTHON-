@@ -1,0 +1,72 @@
+from menu import Ui_MainWindow
+from PyQt6.QtWidgets import QGraphicsDropShadowEffect
+from PyQt6.QtWidgets import *
+
+class configuracionTabla ():
+    def __init__(self):
+        super().__init__()
+        self.ui=Ui_MainWindow()
+
+
+    def tabla1(self):
+        self.ui.tableWidget.setColumnWidth(0,250)
+        self.ui.tableWidget.setColumnWidth(1,250)
+        self.ui.tableWidget.setColumnWidth(2,250)
+        self.ui.tableWidget.setColumnWidth(3,250)
+        self.ui.tableWidget.setColumnWidth(4,250)
+        self.ui.tableWidget.setColumnWidth(5,250)
+        self.ui.tableWidget.setColumnWidth(6,250)
+        self.ui.tableWidget.setColumnWidth(7,250)
+        self.ui.tableWidget.setColumnWidth(8,250)
+        self.ui.tableWidget.setColumnWidth(9,250)
+        self.ui.tableWidget.setColumnWidth(10,250)
+        self.ui.tableWidget.setColumnWidth(11,250)
+        self.ui.tableWidget.setColumnWidth(12,250)
+        self.ui.tableWidget.setColumnWidth(13,250)
+        self.ui.tableWidget.setColumnWidth(14,150)
+        self.ui.tableWidget.setColumnWidth(15,250)
+        self.ui.tableWidget.setColumnWidth(16,250)
+        self.ui.tableWidget.setColumnWidth(17,250)
+        self.ui.tableWidget.setColumnWidth(18,250)
+
+    def tabla2(self):
+        self.ui.tableWidget_2.setColumnWidth(0,250)
+        self.ui.tableWidget_2.setColumnWidth(1,250)
+        self.ui.tableWidget_2.setColumnWidth(2,250)
+        self.ui.tableWidget_2.setColumnWidth(3,250)
+        self.ui.tableWidget_2.setColumnWidth(4,250)
+        self.ui.tableWidget_2.setColumnWidth(5,250)
+        self.ui.tableWidget_2.setColumnWidth(6,250)
+        self.ui.tableWidget_2.setColumnWidth(7,250)
+        self.ui.tableWidget_2.setColumnWidth(8,250)
+        self.ui.tableWidget_2.setColumnWidth(9,250)
+        self.ui.tableWidget_2.setColumnWidth(10,250)
+        self.ui.tableWidget_2.setColumnWidth(11,250)
+        self.ui.tableWidget_2.setColumnWidth(12,250)
+        self.ui.tableWidget_2.setColumnWidth(13,250)
+        self.ui.tableWidget_2.setColumnWidth(14,150)
+        self.ui.tableWidget_2.setColumnWidth(15,250)
+        self.ui.tableWidget_2.setColumnWidth(16,250)
+        self.ui.tableWidget_2.setColumnWidth(17,250)
+        self.ui.tableWidget_2.setColumnWidth(18,250)
+
+    def tabla3(self):
+        self.ui.tableWidget_6.setColumnWidth(0,250)
+        self.ui.tableWidget_6.setColumnWidth(1,250)
+        self.ui.tableWidget_6.setColumnWidth(2,250)
+        self.ui.tableWidget_6.setColumnWidth(3,250)
+        self.ui.tableWidget_6.setColumnWidth(4,250)
+        self.ui.tableWidget_6.setColumnWidth(5,250)
+        self.ui.tableWidget_6.setColumnWidth(6,250)
+        self.ui.tableWidget_6.setColumnWidth(7,250)
+        self.ui.tableWidget_6.setColumnWidth(8,250)
+        self.ui.tableWidget_6.setColumnWidth(9,250)
+        self.ui.tableWidget_6.setColumnWidth(10,250)
+        self.ui.tableWidget_6.setColumnWidth(11,250)
+        self.ui.tableWidget_6.setColumnWidth(12,250)
+        self.ui.tableWidget_6.setColumnWidth(13,250)
+        self.ui.tableWidget_6.setColumnWidth(14,150)
+        self.ui.tableWidget_6.setColumnWidth(15,250)
+        self.ui.tableWidget_6.setColumnWidth(16,250)
+        self.ui.tableWidget_6.setColumnWidth(17,250)
+        self.ui.tableWidget_6.setColumnWidth(18,250)
